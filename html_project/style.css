@@ -1,0 +1,55 @@
+#navcolor {
+    font-size:30px;
+    background-color: teal;
+}
+
+#moveleft{
+    margin: 5px;
+    float:left;
+}
+#bodycolor{
+   
+    background-color: lightgrey;
+}
+
+.my-container{
+    margin:60px;
+    
+}
+.my-column1{
+      
+    border:solid white;
+    background-color: white;
+}
+
+  
+.my-column2{
+    
+    border:solid white;
+    background-color: white;
+
+}
+
+.column2 {
+    float:left;
+    padding: 5px;
+  }
+  
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  
+
+footer{
+    
+    
+    border-top: 6px solid teal;
+    text-align: center;
+    height:40px;
+    background-color: gray;
+    color: white;
+ }
